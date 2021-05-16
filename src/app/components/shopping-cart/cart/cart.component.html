@@ -1,0 +1,21 @@
+<!-- <ul class="list-group">
+  <li class="list-group-item" *ngFor="let i of [1,2,3,4,5]">
+    <app-cart-item></app-cart-item>
+  </li>
+
+  <li class="list-group-item active">
+    <strong>Total</strong> {{ 1100 | currency:'INR' }}
+  </li>
+</ul> -->
+
+<p style="font-weight: bold;">Total Item's</p>
+<ul class="list-group">
+    <li class="list-group-item">
+        <app-cart-item></app-cart-item>
+    </li>
+
+    <li class="list-group-item active">
+        <strong>Total</strong> {{ 500 | currency:'INR' }}
+    </li>
+</ul>
+<button style="margin-top: 30px;" type="button" class="btn btn-danger btn-block">Buy Now</button>
